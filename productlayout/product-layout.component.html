@@ -1,0 +1,106 @@
+<div class="header container">
+  <div class="header-left">
+    <ul>
+      <li><a [routerLink] = "['home']">Home</a></li>
+      <li><a [routerLink] = "['shop']">Shop</a></li>
+      <li><a href="">Elements</a></li>
+      <li><a href="">Blog</a></li>
+      <li><a href="">Page</a></li>
+    </ul>
+  </div>
+  <div class="header-logo">
+    <img src="../../assets/img/logo-removebg-preview.png" alt="logo">
+  </div>
+  <div class="header-right">
+    <ul>
+      <li><a href=""><img src="../../assets/img/search-icon.png" alt=""></a></li>
+      <li><a href=""><img src="../../assets/img/user-icon.png" alt=""></a></li>
+      <li><a href=""><img src="../../assets/img/bag-3-icon-0-2.png" alt="bag"></a></li>
+
+    </ul>
+  </div>
+</div>
+<div class="container current">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item breadcrumb-item1"><a href="#">HOME</a></li>
+      <li class="breadcrumb-item breadcrumb-item2"><a href="#">MAIN</a></li>
+      <li class="breadcrumb-item breadcrumb-item3"><a href="#">JACKET</a></li>
+      <li class="breadcrumb-item breadcrumb-item4 active" aria-current="page">CLASSIC HOODIE</li>
+    </ol>
+  </nav>
+</div>
+<!-- current -->
+<div class="container product-show">
+  <div class="row" style="padding: 0 15px 0 15px">
+    <div class="product-img">
+      <img src="../../assets/img/C0C0C0.jfif" alt="product-img">
+    </div>
+    <!-- img -->
+    <div class="col-2"></div>
+    <div class="product-description col-xl-4">
+      <b>BEST SELLER</b>
+      <p>Devon zip-top tote</p>
+      <p><i class="fas fa-star" style="color:#03d607"></i><i class="fas fa-star" style="color:#03d607"></i><i class="fas fa-star" style="color:#03d607"></i><i class="fas fa-star" style="color:#03d607"></i><i class="fas fa-star mr-2" style="color: #858585"></i>2 Customer reviews</p>
+      <p><i class="fas fa-dollar-sign"></i>188.00</p>
+      <p class = "product-description-details">This handy tote bag from our Devon collection includes a zip-top closure <br> to keep your things secure. Fits a laptop and all the other things <br> your need for your day.</p>
+      <ul>
+        <li>Leather.</li>
+        <li>Import.</li>
+        <li>Item AA851</li>
+      </ul>
+      <div class="selections">
+        <div class="size-selection">
+          <b class="mt-2">SELECT SIZE</b>
+          <div class="dropdown">
+            <button class="btn p-md-2" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Choose an option <span><i class="fas fa-chevron-down"></i></span>
+            </button>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
+              <button class="dropdown-item" type="button">Action</button>
+              <button class="dropdown-item" type="button">Another action</button>
+              <button class="dropdown-item" type="button">Something else here</button>
+            </div>
+          </div>
+        </div>
+        <!-- size select -->
+        <div class="color-selection">
+          <b class="mt-2">SELECT COLOR</b>
+          <div class="dropdown">
+            <button class="btn p-md-2" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Choose an option <span><i class="fas fa-chevron-down"></i></span>
+            </button>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
+              <button class="dropdown-item" type="button">Action</button>
+              <button class="dropdown-item" type="button">Another action</button>
+              <button class="dropdown-item" type="button">Something else here</button>
+            </div>
+          </div>
+        </div>
+        <!-- size select -->
+      </div>
+      <button class="btn add-product">ADD TO CART</button>
+    </div>
+    <!-- product-description -->
+  </div>
+  <!-- row -->
+  <div class="info-navigation justify-content-center" id="info-navigation-items">
+    <ul>
+      <li><a href="#info-navigation-items" id = "info-navigation-items-1"class="info-navigation-items mr-md-5">Description</a></li>
+      <li><a href="#info-navigation-items" id = "info-navigation-items-2"class="info-navigation-items mr-md-5">Additional Information</a></li>
+      <li><a href="#info-navigation-items" id = "info-navigation-items-3"class="info-navigation-items">Reviews(2)</a></li>
+    </ul>
+  </div>
+</div>
+<!-- product-show -->
+<div class="container information">
+  <p class="info-navigation-items-child info-navigation-items-1-child">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia deserunt mollit anim id est laborum. (1)</p>
+  <p class="info-navigation-items-child info-navigation-items-2-child">Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Beatae fuga voluptate id assumenda nisi, numquam, veniam unde ipsum nemo dicta reprehenderit harum est, quos aperiam? Odit illo veritatis quibusdam voluptas.(2)</p>
+  <p class="info-navigation-items-child info-navigation-items-3-child">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel voluptas libero, nam ipsa quis impedit architecto voluptatibus exercitationem, culpa, inventore error eligendi explicabo ipsam rem, modi blanditiis ut facere laudantium.(3)</p>
+</div>
+<app-footer></app-footer>
