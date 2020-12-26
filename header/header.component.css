@@ -1,0 +1,74 @@
+.header{
+  display: flex;
+  /* justify-content: space-around; */
+  justify-content: space-between;
+  padding:0px;
+}
+
+.left-menu ul{
+  display: flex;
+  padding-left: 0px;
+  list-style-type: none;
+  margin-bottom: 0px;
+}
+.left-menu ul li{
+  /* width: 20%; */
+  position: relative;
+}
+ .left-menu ul li a{
+  line-height: 60px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  padding: 0px 10px 0px 10px;
+}
+.left-menu ul li a::after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #000;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.left-menu ul li a:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.right-menu ul{
+  display: flex;
+  list-style-type: none;
+  /* margin-left: 360px; */
+  /* padding-left: 0px; */
+  /* width: 110px; */
+  /* margin-left: 320px; */
+  margin-top: 10px;
+  /* margin-right: 0px; */
+  /* right: 0px; */
+  /*	padding-left: 400px;
+  /* padding-right: 20px; */
+}
+
+
+.right-menu ul li a{
+  margin-left: 15px;
+
+}
+.logo{
+  margin-top: 0px;
+  /* margin: auto; */
+}
+.logo img{
+  margin: auto;
+  /* padding-left: 184px; */
+  /* padding-right: 50%; */
+}
+.right-menu ul li a img{
+  width: 20px;
+}
