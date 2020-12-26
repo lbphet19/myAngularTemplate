@@ -1,0 +1,27 @@
+@media (min-width: 1200px) {
+  .footer .policy{
+		/* margin: auto; */
+		margin-left: 15%;
+	}
+	.footer .currency{
+		margin-left: 5%;
+  }
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+.policy ul{
+  list-style-type: none;
+}
+@media (min-width: 600px){
+.policy ul{
+  display: flex;
+}
+}
+.footer .row{
+  width: 100%;
+}
+.footer .social i{
+  font-size: 20px;
+}
