@@ -1,0 +1,436 @@
+.top-bar{
+  background-color: #D3D3D3;
+  height: 820px;
+  /* height: 100%; */
+  padding-right: 20px;
+  border-bottom: 0.5px solid black;
+}
+@media screen and(max-width: 600px) {
+  .top-bar{
+    height: 300px;
+    background-color: yellow;
+  }
+}
+.header{
+  /* display: flex; */
+  /* justify-content: space-around; */
+  justify-content: space-between;
+  padding:0px;
+}
+
+.left-menu ul{
+  display: flex;
+  padding-left: 0px;
+  list-style-type: none;
+  margin-bottom: 0px;
+}
+.left-menu ul li{
+  /* width: 20%; */
+  position: relative;
+}
+ .left-menu ul li a{
+  line-height: 60px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  padding: 0px 5px 0px 5px;
+}
+.left-menu ul li a::after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #000;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.left-menu ul li a:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.right-menu ul{
+  display: flex;
+  list-style-type: none;
+  /* margin-left: 360px; */
+  /* padding-left: 0px; */
+  /* width: 110px; */
+  /* margin-left: 320px; */
+  margin-top: 10px;
+  /* margin-right: 0px; */
+  /* right: 0px; */
+  /*	padding-left: 400px;
+  /* padding-right: 20px; */
+}
+
+
+.right-menu ul li a{
+  margin-left: 15px;
+
+}
+.logo{
+  margin-top: 0px;
+  /* margin: auto; */
+}
+.logo img{
+  margin: auto;
+  /* padding-left: 184px; */
+  /* padding-right: 50%; */
+}
+.right-menu ul li a img{
+  width: 20px;
+}
+.main-caption{
+  /* width: 400px; */
+  height: 200px;
+  margin-left: 18%;
+  padding-top: 0px;
+  margin-top: 15%;
+}
+.main-caption .main-caption-top{
+  font-size: 50px;
+  font-weight: bold;
+}
+.main-caption .main-caption-bottom{
+  font-size: 12px;
+  font-weight: bold;
+}
+.intro{
+  /* padding: 0; */
+  margin-top: 50px;
+  /* max-width: 791.5px; */
+}
+
+
+.intro--card--card-body--a-covering{
+  position: relative;
+  /* width: 75px; */
+  display: inline-block;
+  /* test */
+}
+.intro .card-deck .card .card-body a{
+  text-decoration: none;
+  display: block;
+  color: black;
+  font-weight: 600;
+  /* width: 60px; */
+}
+.intro .card-deck .card .card-body a::after{
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #000;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.intro .card-deck .card .card-body a:hover::after {
+  width: 100%;
+  left: 0;
+}
+/* .intro .card-deck .card .card-body h5{
+  width: 180px;
+  font-size: 28px;
+  font-weight: bold;
+} */
+/* .intro .card-deck .card .card-body{
+  padding: 64px 32px;
+  margin-left: 15px;
+  margin-right: 15px;
+  /* test
+}	*/
+.intro .card-deck .card .card-body{
+  padding: 64px 32px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.intro .card-deck .card .card-body h5{
+  /* width: 180px; */
+  font-size: 28px;
+  font-weight: bold;
+}
+/* .intro .card-deck .intro--card--3 .card-body h5{
+  width: 200px;
+} */
+.intro .card-deck .card img{
+  padding-top: 0px;
+  /* width: 100%; */
+  height: 280px;
+}
+.intro .card-deck .card{
+  padding: 0px;
+}
+.intro .card-deck .card .card-body .card-title{
+  color: #337be7;
+  margin-left: 0;
+  left: 10px;
+}
+.categories{
+  margin-top: 50px;
+  /* width: 1583px; */
+}
+/* co column */
+.categories .column{
+  /* padding-left: 0px; */
+  /* padding-right: 10px; */
+  padding-left: -20px;
+}
+/* co column */
+.categories .column ul li a{
+  display: block;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 500;
+  color: black;
+  /* padding: 10px 15px; */
+  /* font-family: "Josh"; */
+}
+/* co column */
+.categories .column ul{
+  display: flex;
+  list-style-type: none;
+  padding-left: 0px;
+}
+/* phai co position nay moi co hieu ung hover duoc */
+/* co column */
+.categories .column ul li{
+  position: relative;
+}
+/*co column */
+
+.categories .column ul li a::after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #000;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+/* co column */
+.categories .column ul li a:hover::after {
+  width: 100%;
+  left: 0;
+}
+/* .categories .categories-best-sellers{
+  margin-right: 5px;
+}
+.categories .categories-sale-products{
+  margin-left: 5px;
+} */
+
+/* test */
+/* .intro .card-deck .intro--card--1{
+  margin-left: 30px;
+  margin-right: 0px;
+}
+.intro .card-deck .intro--card--3{
+  margin-right: 30px;
+  margin-left: 0px;
+} */
+.sellers-row-1 .col .card{
+  border: none;
+}
+.sellers-row-1 .col .card .card-body .card-text{
+  font-size: 15px;
+  font-weight: 800;
+}
+.sellers-row-1 .col .card .card-title{
+  margin-top: 15px;
+}
+.sellers-row-1-card-no-3 .card-body .card-text{
+  display: flex;
+  justify-content: space-between;
+}
+.sellers-row-1-card-no-3 .card-body .card-text a{
+  text-decoration: none;
+  color: black;
+}
+.sellers-row-1-card-no-3 .card-body .card-text .fa-search{
+  margin-left: 33%;
+}
+.sellers-row-1-card-no-3 .card-body .card-text .fa-heart{
+  margin-left: 15px;
+}
+.sellers-row-2 .col .card{
+  border: none;
+}
+.sellers-row-2 .col .card .card-body .card-text{
+  font-size: 15px;
+  font-weight: 800;
+}
+.sellers-row-2 .col .sellers-row-2-card-no-1 .card-body .card-text span{
+  font-weight: 100;
+  /* font-size: 100px; */
+}
+.load-more{
+  /* text-align: center; */
+  /* margin-top: 10px; */
+
+}
+.fa-angle-double-down{
+  padding-left: 45%;
+  padding-right: 45%;
+}
+.other-options{
+  height: 200px;
+  /* margin: 0; */
+  display: flex;
+}
+.other-options .sportswear p, .other-options .find-your-fit p{
+  display: block;
+  margin-bottom: 0;
+}
+.sportswear{
+  background-color: #d70808;
+  width: 50%;
+  /* position: relative; */
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 48px;
+  color: white;
+}
+.find-your-fit{
+  background-color: #000000;
+  width: 50%;
+  /* position: relative; */
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 48px;
+  color: white;
+}
+.read-more-cover{
+  margin: auto;
+  display: table;
+  position: relative;
+  /* padding: 30px; */
+  margin-top: 0px;
+  /* margin-bottom: 100px;
+  /* margin-top: 15px; */
+}
+.sportswear a, .find-your-fit a{
+  display: block;
+  font-size: 20px;
+  /* margin-top: 15px; */
+  color: white;
+}
+.sportswear a,.find-your-fit a:hover{
+  text-decoration: none;
+  color: white;
+}
+.sportswear a::after{
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: white;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+ .find-your-fit a::after{
+   background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: white;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+ }
+.sportswear a:hover::after {
+  width: 100%;
+  left: 0;
+}
+.find-your-fit a:hover::after {
+  width: 100%;
+  left: 0;
+}
+.footer{
+  margin-top: 50px;
+}
+@media (min-width: 1200px) {
+.left-menu ul li a{
+  line-height: 60px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  padding: 0px 15px 0px 15px;
+}
+.intro .card-deck .card .card-body h5{
+  width: 180px;
+}
+.intro .card-deck .intro--card--3 .card-body h5{
+  width: 200px;
+}
+.intro .card-deck .intro--card--1{
+  margin-left: 30px;
+  margin-right: 0px;
+}
+.intro .card-deck .intro--card--3{
+  margin-right: 30px;
+  margin-left: 0px;
+}
+.categories .categories-best-sellers{
+  margin-right: 5px;
+}
+.categories .categories-sale-products{
+  margin-left: 5px;
+}
+.categories .column ul li a{
+padding: 10px 15px;
+}
+.main-caption{
+width: 400px;
+}
+}
+@media (min-width: 700px) {
+  .header{
+  display: flex;
+}
+.left-menu ul li a{
+  padding: 0 15px 0 15px;
+}
+}
+
+/* media */
+.footer{
+  font-family: "Jost";
+}
+.footer .row .footer-title{
+  text-transform: uppercase;
+  font-weight: 1000;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.footer .row .footer-column ul li{
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.footer .row .col--3{
+  font-size: 14px;
+  font-weight: 500;
+  /* line-height: */
+}
+.footer .row .col--1 ul, .footer .row .col--2 ul{
+  list-style-type: none;
+  padding-left: 0;
+}
